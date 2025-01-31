@@ -7,7 +7,3 @@ def sum_list(list: List[Union[int,float]]) -> float:
     for number in list:
         sum += number
     return sum
-
-
-if __name__ == "__main__":
-    print(sum_list([]))
