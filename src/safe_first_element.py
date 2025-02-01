@@ -1,10 +1,10 @@
-from typing import Union, Any, Sequence
+from typing import Optional, Any, Sequence
 """
 program to safely return the first element of a list, if it exists
 """
 
-def first_element(list: Sequence[Any]) -> Union[Any, None]:
+def first_element(lst: Sequence[Any]) -> Optional[Any]:
     if list:
-        return list[0]
+        return lst[0]
     else:
         return None
