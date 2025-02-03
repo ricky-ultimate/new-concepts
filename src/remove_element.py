@@ -8,3 +8,4 @@ def remove_element(lst: List[Any], item: Any) -> Optional[List[Any]]:
     for i in range(len(lst)):
         if item == lst[i]:
             return lst[0:i] + lst[i+1:]
+    return lst
